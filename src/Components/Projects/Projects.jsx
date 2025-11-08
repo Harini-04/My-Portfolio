@@ -4,6 +4,9 @@ import "./Projects.css";
 function Projects() {
   const projectList = [
     { title: "Coffee Listing App", desc: "React project showcasing coffee details.", link: "#" },
+    { title: "Comparison of Crime Hotspots", desc:"XYZ", link:"#"},
+    { title: "Earthquake Source Location Estimation", desc:"XYZ", link:"#"},
+    { title: "Crop Price Prediction", desc:"XYZ", link:"#"},
   ];
 
   return (
