@@ -1,0 +1,95 @@
+.work-section {
+  padding: 80px 20px;
+  text-align: center;
+  background: #fafafa;
+}
+
+.work-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.work-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.work-tabs button {
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: 1px solid #acccee;
+  background: transparent;
+  color: #648cb5;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+.work-tabs button.active,
+.work-tabs button:hover {
+  background-color: #889fb7;
+  color: #fff;
+}
+
+.work-content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tab h3 {
+  color: #333;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.tab p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.skills-tab ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-tab li {
+  margin-bottom: 8px;
+  color: #444;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+/* .skills-tab li:hover {
+  transform: scale(1.05);
+  background-color: #e6f2ff;
+} */
+
+/* Responsive */
+@media (max-width: 768px) {
+  .work-tabs {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tab h3 {
+    font-size: 1.1rem;
+  }
+
+  .tab p,
+  .skills-tab li {
+    font-size: 0.9rem;
+  }
+
+  .work-content {
+    padding: 0 10px;
+  }
+}
