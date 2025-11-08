@@ -5,6 +5,7 @@ import About from "./Components/About/About.jsx";
 import Projects from "./Components/Projects/Projects.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
+import Work from "./Components/My Work/My Work.jsx";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Work/>
       <Projects />
       <Contact />
       <Footer />
