@@ -59,7 +59,7 @@ function Work() {
           <div className="tab skills-tab">
             <h3>Technical Skills</h3>
             <ul>
-              <li><strong>Programming:</strong> Python, Javascript, SQL, React.js, Html, CSS, DSA, OOPS,Django</li>
+              <li><strong>Programming:</strong> Python, Javascript, SQL, React.js, Html, CSS, DSA, OOPS, ML, Django</li>
               <li><strong>Tools/Platforms:</strong>Git, GitHub, VS Code, Postman</li>
               <li><strong>Professional & Soft Skills:</strong> SDLC, Problem Solving, Quick Learning Ability</li>
               <li></li>

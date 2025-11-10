@@ -5,7 +5,6 @@
 }
 
 .work-title {
-  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 30px;
   color: #222;
@@ -34,6 +33,7 @@
 .work-tabs button:hover {
   background-color: #889fb7;
   color: #fff;
+  transform: scale(1.1);
 }
 
 .work-content {
