@@ -42,9 +42,11 @@
 }
 .my-work{
   background-color:#4CAF50 ;
+  transition: transform 0.1s ease;
 }
-.my-work :hover{
+.my-work:hover{
   background-color: #3e8e41;
+  transform: scale(1.1);
 }
 
 .hero-img {
@@ -71,6 +73,7 @@
 }
 .resume-btn:hover {
   background-color: #3e8e41;
+  transform: scale(1.1);
 }
 .hero-icons{
   display: flex;

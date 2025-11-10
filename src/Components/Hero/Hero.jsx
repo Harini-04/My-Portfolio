@@ -9,7 +9,7 @@ function Hero() {
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
-        <h3>Hi, I'm</h3>
+        <h4>Hello, I'm</h4>
         <h1>Harini Kurella</h1>
         <p>CSE 2024</p>
         <button className="my-work" onClick={()=>{
