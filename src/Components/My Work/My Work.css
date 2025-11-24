@@ -3,6 +3,9 @@
   text-align: center;
   background: #fafafa;
 }
+#work{
+  scroll-margin-top: 125px;
+}
 
 .work-title {
   font-weight: bold;
