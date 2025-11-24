@@ -4,7 +4,7 @@ import profile from "../../assets/profile.jpg";
 
 function Hero() {
   const handleResume=()=>{
-    window.open("https://drive.google.com/file/d/1xo3eGkFZvReRww6mEfdy2cFXDfdKegxt/view?usp=drive_link","_blank");
+    window.open("https://drive.google.com/file/d/1fm7zO9PnT-ZXTh2sT4ZUtaA_zNBynz2B/view?usp=drive_link","_blank");
   };
   return (
     <section id="hero" className="hero">
@@ -26,6 +26,9 @@ function Hero() {
         </a>
         <a href="https://leetcode.com/Harini_kurella" target="_blank" rel="noopener noreferrer">
           <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" />
+        </a>
+        <a href="https://www.kaggle.com/kurellaharini" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/kaggle.svg" alt="Kaggle"/>
         </a>
         </div>
       </div>

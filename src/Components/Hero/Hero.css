@@ -6,6 +6,9 @@
   background-color: #f7fdfd;
   flex-wrap: wrap;
 }
+#hero{
+  scroll-margin-top: 125px;
+}
 
 .hero-content {
   max-width: 500px;
@@ -41,7 +44,7 @@
   transition: 0.1s ease;
 }
 .my-work{
-  background-color:#4CAF50 ;
+  background-color:#84a98c ;
   transition: transform 0.1s ease;
 }
 .my-work:hover{
