@@ -3,7 +3,9 @@
   background-color: #eef6f9;
   text-align: center;
 }
-
+#about{
+  scroll-margin-top: 180px;
+}
 .about h2 {
   /* font-size: 2rem; */
   margin-bottom: 20px;
