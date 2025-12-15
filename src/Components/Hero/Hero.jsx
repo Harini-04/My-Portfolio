@@ -4,7 +4,7 @@ import profile from "../../assets/profile.jpg";
 
 function Hero() {
   const handleResume=()=>{
-    window.open("https://drive.google.com/file/d/1fm7zO9PnT-ZXTh2sT4ZUtaA_zNBynz2B/view?usp=drive_link","_blank");
+    window.open("https://drive.google.com/file/d/1sMrWpG6AiXGPv2o-LYQVteQGbzSp2GN_/view?usp=sharing","_blank");
   };
   return (
     <section id="hero" className="hero">
